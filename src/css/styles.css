@@ -10,11 +10,36 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  /* background-image: url(https://img.freepik.com/premium-vector/the-flag-of-ukraine-in-the-shape-of-a-heart_157650-284.jpg?w=1380); */
+
+  /* background-image: url(https://img.freepik.com/premium-photo/love-ukraine-heart-flag-icon_118047-466.jpg?w=740); */
+  background-image: url(https://cdn.create.vista.com/api/media/small/552184074/stock-photo-yellow-blue-flag-of-ukraine);
 }
 
 #search-box {
+  /* display: flex; */
   font: inherit;
   padding: 8px;
-  max-width: 320px;
+  max-width: 350px;
   margin-bottom: 16px;
+  margin-left: 40px;
+  margin-right: auto;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(233, 232, 232);
+  text-align: center;
+  font-size: large;
+  cursor: pointer;
+  color: rgb(247, 2, 165);
+}
+
+h1 {
+  margin-left: 40px;
+  font-size: large;
+  text-transform: uppercase;
+  color: rgb(247, 2, 165);
+}
+li {
+  list-style: none;
+  color: rgb(82, 82, 82);
 }
